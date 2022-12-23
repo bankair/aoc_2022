@@ -16,4 +16,4 @@ should_return(157).for do
   INPUT
 end
 
-puts perform(File.read('input.txt'))
+puts "Result: #{perform(File.read('input.txt'))}"
